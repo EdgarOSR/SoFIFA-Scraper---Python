@@ -62,7 +62,8 @@ class sofifa:
 
     def get_players(self, typeSel, nation, club, min, max, ver, player_name):
         if (len(player_name) > 0):
-            self.url = f'https://sofifa.com/players/?keyword={player_name}&type={typeSel}&oal={min}&oah={max}&col=oa&sort=desc&r={ver}&set=true'
+            self.url = f'https://sofifa.com/players/?keyword={player_name}'
+            # self.url = f'https://sofifa.com/players/?keyword={player_name}&type={typeSel}&oal={min}&oah={max}&col=oa&sort=desc&r={ver}&set=true'
         elif (int(club) > 0):
             self.url = f'https://sofifa.com/team/{club}/?col=oa&sort=desc&r={ver}&set=true'
         elif (int(nation) > 0):

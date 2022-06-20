@@ -123,7 +123,7 @@ class app_layout:
         self.lbMaxOvr.grid(column=0, row=6, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
         self.lbSearch.grid(column=0, row=7, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
         self.lbPlayerName.grid(column=0, row=8, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
-        # self.lbPlayerID.grid(column=0, row=9, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
+        self.lbPlayerID.grid(column=0, row=9, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
         self.btAbout.grid(column=0, row=10, padx=self.__pad, pady=self.__pad, columnspan=2, sticky='nsew')
         self.btClipboard.grid(column=0, row=11, padx=self.__pad, pady=self.__pad, columnspan=2, sticky='nsew')
         self.btConvertClassic.grid(column=0, row=12, padx=self.__pad, pady=self.__pad, columnspan=2, sticky='nsew')
@@ -136,7 +136,7 @@ class app_layout:
         self.txMaxOvr.grid(column=1, row=6, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
         self.txSearch.grid(column=1, row=7, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
         self.txPlayerName.grid(column=1, row=8, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
-        # self.txPlayerID.grid(column=1, row=9, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
+        self.txPlayerID.grid(column=1, row=9, padx=self.__pad, pady=self.__pad, columnspan=1, sticky='nsew')
         self.txPlayerList.grid(column=2, row=0, padx=self.__pad, pady=self.__pad, columnspan=2, sticky='nsew', rowspan=14)
 
     ### SCRAP COMBO BOXES VALUES ###
